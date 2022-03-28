@@ -1,0 +1,22 @@
+SMAP
+addtocart_jsp.java
+JSP
+*S JSP
+*F
++ 0 addtocart.jsp
+shoppers-gh-pages/addtocart.jsp
++ 1 header.jsp
+shoppers-gh-pages/header.jsp
+*L
+5,4:55
+5#1,5:58
+9,4:12
+12:62
+14,19:64
+32,52:83
+84:135,3
+85,47:138
+8#0:185
+10,2:187
+11:189
+*E

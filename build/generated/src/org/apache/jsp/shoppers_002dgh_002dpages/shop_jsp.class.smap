@@ -1,0 +1,30 @@
+SMAP
+shop_jsp.java
+JSP
+*S JSP
+*F
++ 0 shop.jsp
+shoppers-gh-pages/shop.jsp
++ 1 header.jsp
+shoppers-gh-pages/header.jsp
++ 2 footer.jsp
+shoppers-gh-pages/footer.jsp
+*L
+5,10:53
+5#1,5:63
+9:12
+9:67
+11,8:69
+18,99:77
+14#0,39:176
+53,2:216
+54,5:218
+59:223,3
+60,2:226
+62,4:228,3
+66,5:240
+71:245,3
+72,125:248
+5#2,94:373
+196#0:466,2
+*E

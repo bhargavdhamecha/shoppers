@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calc</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container{
+                margin: auto;
+                display: block;
+            }
+        </style>
+        <script>
+            var string = "";
+            function type(){
+                var Tbox = document.getElementById("textb");
+                Tbox.innerHTML= "1";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <form action="calc.do" method="post">
+                <table>
+                    <tr>
+                        <td colspan="3">
+                            <input type="text" name="expression" id="textb"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" value="1">1</button></td>
+                        <td><button type="button" value="1">2</button></td>
+                        <td><button type="button" value="1">3</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" onclick="type()">4</button></td>
+                        <td><button type="button" value="1">5</button></td>
+                        <td><button type="button" value="1">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" value="1">7</button></td>
+                        <td><button type="button" value="1">8</button></td>
+                        <td><button type="button" value="1">9</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
